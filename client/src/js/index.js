@@ -2,7 +2,10 @@ import { Workbox } from 'workbox-window';
 import Editor from './editor';
 import './database';
 import '../css/style.css';
+import logo from '../images/logo.png';
 
+const header = document.querySelector('.navbar-brand');
+header.innerHTML = `<img src="${logo}" />`;
 const main = document.querySelector('#main');
 main.innerHTML = '';
 
@@ -11,7 +14,7 @@ const loadSpinner = () => {
   spinner.classList.add('spinner');
   spinner.innerHTML = `
   <div class="loading-container">
-  <div class="loading-spinner" />
+    <div class="loading-spinner" />
   </div>
   `;
   main.appendChild(spinner);
@@ -31,3 +34,4 @@ if ('serviceWorker' in navigator) {
 } else {
   console.error('Service workers are not supported in this browser.');
 }
+
