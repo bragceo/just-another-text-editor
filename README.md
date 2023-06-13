@@ -1,8 +1,8 @@
-# Just Another NoteTaker
+# Lavell's Just Another NoteTaker
 
 ## Description 
 
-Just Another NoteTaker is a text editor that can work both online and offline. It serves to allow developers to write code snippets or notes which they can retrieve later, even if they're disconnected from the internet. The application utilizes IndexedDB for local storage to persist the data, which ensures the data remains intact when the application is reopened. The application also has functionality for installing itself as a Progressive Web Application (PWA) for offline use.
+Lavell's Just Another NoteTaker is a text editor that can work both online and offline. It serves to allow developers to write code snippets or notes which they can retrieve later, even if they're disconnected from the internet. The application utilizes IndexedDB for local storage to persist the data, which ensures the data remains intact when the application is reopened. The application also has functionality for installing itself as a Progressive Web Application (PWA) for offline use.
 
 
 ## User Story
