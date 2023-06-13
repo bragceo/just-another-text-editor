@@ -72,7 +72,7 @@ Index.js: This file is the entry point for the client-side JavaScript code. It i
 
 Install.js: This file handles the installation of the application as a PWA. When the beforeinstallprompt event is fired, it enables an installation button and saves the event. When the user clicks the button, it triggers the installation prompt. After the user accepts or declines the installation, the outcome is logged and the saved event is cleared.
 
-Based on the User Story and Acceptance Criteria, the sequence of operation for the application appears to be as follows:
+Consistent with the User Story and Acceptance Criteria, the sequence of operation for the application is as follows:
 
 Upon startup (npm run start), server.js starts the Express server, serving static files and initializing HTML routes.
 
